@@ -2,9 +2,11 @@
 
 ## Prerequisites for Linux:
 ```
-python3
-pip
-sudo apt install ffmpeg
+sudo apt install ffmpeg python3 pip
+
+python3 -m pip install pytube
+pip install yt-dlp
+
 ```
 
 ## How it works:
