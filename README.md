@@ -5,12 +5,14 @@
 sudo apt install ffmpeg python3 pip
 
 python3 -m pip install pytube
-pip install yt-dlp
+pip3 install yt-dlp
 
 ```
 
 ## How it works:
 
-Enter as many playlist URLs as you'd like.
+First select if you want to download a playlist or multiple single yt videos.
+
+Enter as many playlist/videos URLs as you'd like.
 Type 'done' when you're finished.
-The program will then download all the playlists entered.
+The program will then download all the playlists/videos entered.
