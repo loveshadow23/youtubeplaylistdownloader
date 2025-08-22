@@ -2,10 +2,13 @@
 
 ## Prerequisites for Linux:
 ```
-sudo apt install ffmpeg python3 pip
+sudo apt install ffmpeg python3 pip3
 
-python3 -m pip install pytube
-pip3 install yt-dlp
+python3 -m venv $HOME/pyenv
+
+source $HOME/pyenv/bin/activate
+
+pip3 install yt-dlp pytube
 
 ```
 
